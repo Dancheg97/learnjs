@@ -1,5 +1,6 @@
-let stuff = "asd";
-let ss = "sad";
-console.log(stuff);
-stuff = 1;
-console.log(stuff, ss);
+
+// sss
+var myAge = "hehe";
+console.log(myAge);
+aa = 123;
+console.log(aa);
