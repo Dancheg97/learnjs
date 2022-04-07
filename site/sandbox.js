@@ -1,3 +1,1 @@
-// sss
-console.log("heyhey", "asdasd");
-
+console.log(null + "asd" + 2);
