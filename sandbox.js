@@ -1,11 +1,9 @@
-console.log(`dope string ${12}`);
+let elems = [`asas`, `hey`, `sddds`];
 
-let author = "Jake";
-let title = "How to cook bortsh";
+let ages = [11, 12, 13];
 
-let html = `
-  <h2>${title}</h2>
-  <p>${author}</p>
-`;
+let rez = elems.push("SOMEMORE");
 
-console.log(html);
+let stuf = elems.pop(`asas`);
+
+console.log(elems, rez, stuf);
