@@ -1,8 +1,11 @@
-let radius = 10;
-const pi = 3.14;
+console.log(`dope string ${12}`);
 
-console.log(radius, pi);
+let author = "Jake";
+let title = "How to cook bortsh";
 
-let rez = pi * 2 * radius;
+let html = `
+  <h2>${title}</h2>
+  <p>${author}</p>
+`;
 
-console.log(rez);
+console.log(html);
