@@ -1,6 +1,8 @@
-var i = 10;
+const age = 30;
 
-while (i != 0) {
-  i -= 1;
-  console.log(i);
+if (true) {
+  var stuff = "jahaha";
+  console.log(age, stuff);
 }
+
+console.log(age, stuff);
