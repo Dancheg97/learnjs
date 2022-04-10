@@ -1,9 +1,6 @@
-let elems = [`asas`, `hey`, `sddds`];
+var i = 10;
 
-let ages = [11, 12, 13];
-
-let rez = elems.push("SOMEMORE");
-
-let stuf = elems.pop(`asas`);
-
-console.log(elems, rez, stuf);
+while (i != 0) {
+  i -= 1;
+  console.log(i);
+}
