@@ -1,8 +1,7 @@
-const age = 30;
 
-if (true) {
-  var stuff = "jahaha";
-  console.log(age, stuff);
+
+function showSomeStuff(a, b, c, d) {
+  console.log(a + b + c + d);
 }
 
-console.log(age, stuff);
+showSomeStuff(1, 2, 3, 4);
