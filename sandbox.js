@@ -1,5 +1,3 @@
-go();
+const radius = (radius) => 3.14 * radius ** 2;
 
-function go() {
-  console.log("i dont like js");
-}
+console.log(radius(3));
