@@ -1,3 +1,3 @@
-const radius = (radius) => 3.14 * radius ** 2;
+let list = [1, 2, 3, 4, 5];
 
-console.log(radius(3));
+list.forEach((val) => console.log(val));
