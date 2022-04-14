@@ -1,3 +1,3 @@
-const para = document.querySelector("body");
+const para = document.querySelectorAll("h1");
 
-console.log(para);
+console.log(para[0], para[1]);
