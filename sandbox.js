@@ -3,6 +3,9 @@ let user = {
   puper: "stopper",
   email: "some@milo.com",
   blogs: ["1", "2", "3"],
+  login: function () {
+    console.log("logged");
+  },
 };
 
-console.log(typeof user);
+user.login();
