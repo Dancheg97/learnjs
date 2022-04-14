@@ -1,1 +1,3 @@
-console.log(document.location);
+const para = document.querySelector("body");
+
+console.log(para);
