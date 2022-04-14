@@ -1,1 +1,1 @@
-console.log(Math.random());
+console.log(document.location);
