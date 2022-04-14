@@ -5,5 +5,4 @@ let user = {
   blogs: ["1", "2", "3"],
 };
 
-console.log(user);
-console.log(user.puper);
+console.log(typeof user);
