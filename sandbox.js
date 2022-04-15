@@ -1,3 +1,3 @@
-const para = document.querySelectorAll("h1");
+const title = document.getElementById("xx");
 
-console.log(para[0], para[1]);
+console.log(title);
