@@ -1,3 +1,2 @@
-const title = document.getElementById("xx");
-
-console.log(title);
+const paras = document.getElementsByTagName("h1");
+console.log(paras);
