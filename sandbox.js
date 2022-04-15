@@ -1,2 +1,5 @@
-const paras = document.getElementsByTagName("h1");
-console.log(paras);
+const elem = document.querySelector("h1");
+
+console.log(elem);
+
+elem.innerText += " newStuff";
