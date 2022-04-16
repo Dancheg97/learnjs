@@ -1,13 +1,8 @@
-const elem = document.querySelector(".content");
+const link = document.querySelector("a");
 
-console.log(elem.innerHTML);
+console.log(link);
 
-elem.innerHTML += "<p>somestuff</p>";
+console.log(link.getAttribute("href"));
 
-console.log(elem.innerHTML);
+link.setAttribute("href", "https://www.github.com");
 
-const people = ["mario", "luigi", "yoshi"];
-
-people.forEach((stuff) => {
-  elem.innerHTML += `<p> some elem name is declared:${stuff} </p>`;
-});
