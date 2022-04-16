@@ -1,8 +1,5 @@
-const link = document.querySelector("a");
+const title = document.querySelector("h1");
 
-console.log(link);
-
-console.log(link.getAttribute("href"));
-
-link.setAttribute("href", "https://www.github.com");
-
+title.style.margin = "50px";
+title.style.color = "blue";
+title.style.fontSize = "60px";
