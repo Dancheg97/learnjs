@@ -1,5 +1,13 @@
-const elem = document.querySelector("h1");
+const elem = document.querySelector(".content");
 
-console.log(elem);
+console.log(elem.innerHTML);
 
-elem.innerText += " newStuff";
+elem.innerHTML += "<p>somestuff</p>";
+
+console.log(elem.innerHTML);
+
+const people = ["mario", "luigi", "yoshi"];
+
+people.forEach((stuff) => {
+  elem.innerHTML += `<p> some elem name is declared:${stuff} </p>`;
+});
