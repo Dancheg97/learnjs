@@ -1,6 +1,10 @@
-const title = document.querySelector("p");
+const title = document.querySelectorAll("p");
 
-console.log(title.classList);
-
-title.classList.remove("error");
-title.classList.add("success");
+title.forEach((title) => {
+  if (title.innerHTML.includes("error")) {
+    title.classList.add("error");
+  }
+  if (title.innerHTML.includes("success")) {
+    title.classList.add("success");
+  }
+});
